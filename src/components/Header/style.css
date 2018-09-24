@@ -1,0 +1,15 @@
+.header {
+  height: 25vh;
+  background-color: black;
+  color: white;
+  background-image: url('../../img/img_mouseover3.jpg');
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.header-btn {
+  float: right;
+}
