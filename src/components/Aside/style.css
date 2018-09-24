@@ -1,5 +1,4 @@
 .aside {
-	display: flex;
-	flex-direction: column;
-	margin-left: -60px;
+	position: absolute;
+	left: 0;
 }

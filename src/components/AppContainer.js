@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header/Header';
 import Skills from './Skills/Skills';
-import Portfolio from './Portfolio/Portfolio';
+import Projects from './Projects/Projects';
 import AboutMe from './AboutMe/AboutMe';
 import Aside from './Aside/Aside';
 import Footer from './Footer/Footer';
@@ -21,11 +21,10 @@ class AppContainer extends Component {
             <Skills />
           </Row>
           <Row>
-            <Portfolio />
+            <Projects />
           </Row>
-        <Footer />
         </Container>
-
+        <Footer />
       </div>
     )
   }
