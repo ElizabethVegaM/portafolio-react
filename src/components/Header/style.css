@@ -2,14 +2,25 @@
   height: 25vh;
   background-color: black;
   color: white;
-  background-image: url('../../img/img_mouseover3.jpg');
+  position: relative;
+  text-align: center;
 }
 
-.header h1 {
-  margin: 0;
-  padding-top: 20px;
+
+.banner {
+  width: 100vw;
+  position: relative;
+}
+
+.name-logo {
+  height: 28vh;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  z-index: 3;
 }
 
 .header-btn {
   float: right;
 }
+

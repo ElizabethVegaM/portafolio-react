@@ -3,7 +3,7 @@ import { Button } from 'react-materialize';
 
 const HeaderButton = (props) => {
   return(
-    <Button large>{props.name}</Button>
+    <Button large className="grey" waves='light'>{props.name}</Button>
   )
 }
 

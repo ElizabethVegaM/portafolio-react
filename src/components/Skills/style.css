@@ -1,0 +1,15 @@
+.skills {
+  text-align: center;
+}
+
+.icon-container {
+  display: inline-block;
+}
+
+.icon-container i {
+  font-size: 80px;
+  padding: 20px;
+  background: -webkit-linear-gradient( #cf74ee, #273166);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

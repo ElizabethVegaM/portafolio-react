@@ -2,7 +2,9 @@ import React from 'react';
 
 const SkillIcon = (props) => {
   return(
-    <i className={props.icon}></i>
+    <div className="icon-container">
+      <i className={props.icon}></i>
+    </div>
   )
 }
 

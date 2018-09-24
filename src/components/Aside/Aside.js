@@ -1,18 +1,17 @@
 import React from 'react';
 import './style.css';
+import { Button } from 'react-materialize';
 
 const Aside = () => {
   return (
-    <div className="main-wrapper">
-      <i className="material-icons">attach_file</i>
-      <i className="material-icons">settings</i>
-      <i className="material-icons">refresh</i>
-      <i className="material-icons">search</i>
-      <i className="material-icons">explore</i>
-      <i className="material-icons">public</i>
-      <i className="material-icons">autorenew</i>
-      <i className="material-icons">add</i>
-</div>
+    <div className="aside">
+      <Button floating large className='grey' waves='light'>
+        <i class="fab fa-linkedin-in"></i>
+      </Button>
+      <Button floating large className='grey' waves='light'>
+      <i class="fas fa-file"></i>
+      </Button>
+    </div>
   )
 }
 

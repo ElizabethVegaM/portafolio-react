@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Container, Row, Col } from 'react-grid-system';
 
 class Portfolio extends Component {
   render() {
     return (
-      <div className="portfolio">
+      <Col className="portfolio">
         <h3>Projects</h3>
-      </div>
+      </Col>
     )
   }
 };
