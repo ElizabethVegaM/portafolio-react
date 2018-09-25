@@ -1,0 +1,29 @@
+.projects-container {
+  display: flex;
+  height: 400px;
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+.sample-container {
+  border-radius: 10px;
+  border: 1px solid rgb(230, 230, 230);
+  padding: 0;
+  justify-content: space-between;
+}
+
+.sample-container:first-of-type {
+  margin-right: 10px;
+} 
+
+.sample-container:last-of-type {
+  margin-left: 10px;
+}
+
+.image-container {
+  height: 320px;
+}
+
+.project-sample {
+  height: 100%;
+}

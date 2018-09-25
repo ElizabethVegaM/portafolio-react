@@ -12,11 +12,9 @@ class AppContainer extends Component {
     return (
       <div>
         <Header />
+        <Aside />
         <Container className="main">
-          <Aside />
-          <Row>
             <AboutMe />
-          </Row>
           <Row>
             <Skills />
           </Row>
